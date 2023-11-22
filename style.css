@@ -160,3 +160,18 @@ h1, #question {
   .settings-option:hover {
     background-color: #f2f2f2;
   }
+
+  #Website {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+  }
+  
+  #Website:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
