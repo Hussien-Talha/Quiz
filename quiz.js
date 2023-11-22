@@ -101,7 +101,3 @@ function displayResult() {
 
 // Initial load
 fetchQuestions();
-
-
-// Initial load
-fetchQuestions();

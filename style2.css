@@ -7,7 +7,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
 }
 
 #result-container {
@@ -17,23 +18,22 @@ body {
 
 #quiz-container {
     text-align: center;
-    background-color: #fff;
+    background-color: #444; /* Darker background color */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Lighter shadow color */
 }
 
 #message-container {
     margin-top: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #666; /* Darker border color */
     border-radius: 4px;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #555; /* Darker background color */
 }
 
 h1, #question {
-    color: #333;
+    color: #fff; /* Light text color */
 }
 
 #options-container {
@@ -46,8 +46,8 @@ h1, #question {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4caf50; /* Initial color for buttons */
-    color: #fff;
+    background-color: #3498db; /* Blue color for buttons */
+    color: #fff; /* Light text color */
     border: none;
     border-radius: 4px;
 }
@@ -61,12 +61,12 @@ h1, #question {
 }
 
 #options-container button:hover {
-    background-color: #45a049;
+    background-color: #2980b9; /* Darker blue color on hover */
 }
 
 #result-container h2 {
-    color: #333;
-} 
+    color: #fff; /* Light text color */
+}
 
 .popup {
     display: none;
@@ -79,6 +79,7 @@ h1, #question {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     text-align: center;
+    color: #333;
   }
   
   /* Add a style for the overlay background */
@@ -155,6 +156,7 @@ h1, #question {
     padding: 8px;
     margin: 5px 0;
     cursor: pointer;
+    color: #333;
   }
   
   .settings-option:hover {
