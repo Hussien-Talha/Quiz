@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Quiz</title>
+  <link rel="stylesheet" type="text/css" id="gameStyle" href="style.css">
+</head>
+<body>
+    <div id="result-container"></div>
+
+    <div id="quiz-container">
+      <h1>Space Quiz</h1>
+      <p id="question"></p>
+      <div id="options-container"></div>
+      <div id="message-container"></div>
+    </div>
+
+    <button id="settingsButton" onclick="toggleSettings()">⚙️</button>
+
+    <div id="settingsPopup" class="settings-popup">
+      <div class="settings-option" onclick="toggleStyle()">Change Style</div>
+      <div class="settings-option" onclick="showPopup()">About</div>
+      <!-- Add more settings options as needed -->
+  </div>
+
+  <!-- Popup code -->
+<div id="popup" class="popup">
+  <p>Created by Hussien Talha 2023 ©</p>
+  <p>My website:</p>
+  <button onclick="Website()" id="Website">Click Here</button>
+</div>
+  
+    <script src="quiz.js"></script>
+    <script src="script.js"></script>
+<script>
+  let styleToggle = false;
+
+function toggleStyle() {
+  const styleLink = document.getElementById('gameStyle');
+  styleToggle = !styleToggle;
+
+  if (styleToggle) {
+    styleLink.href = 'style2.css';
+  } else {
+    styleLink.href = 'style.css';
+  }
+}
+</script>
+</body>
+</html>
